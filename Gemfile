@@ -49,8 +49,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Add Markdown Rendering
-# gem "pygments.rb"
 gem "redcarpet"
+gem "rouge"
 
 # Add Bootstrap
 gem 'bootstrap-sass', '~> 3.3.6'

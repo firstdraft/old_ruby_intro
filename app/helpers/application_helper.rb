@@ -1,7 +1,7 @@
 module ApplicationHelper
   def markdown_renderer
     @_markdown_renderer ||= Redcarpet::Markdown.new(
-      HtmlWithPygments.new(with_toc_data: true),
+      HtmlWithStyle.new(with_toc_data: true),
       no_intra_emphasis: true,
       tables: true,
       fenced_code_blocks: true,
